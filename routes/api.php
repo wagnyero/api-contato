@@ -18,3 +18,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::post('/', "ContatoController@create");
+Route::get('/', "ContatoController@showAll");
